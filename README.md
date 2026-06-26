@@ -1,4 +1,4 @@
-# Statistical Modeling and Forecasting of Myanmar Tourism & Airline Arrivals using Python
+# Python-Based Statistical Modeling and Forecasting of Myanmar Tourism & Airline Arrivals
 
 ## Project Overview
 Predicting international tourist and airline arrivals is foundational for macroeconomic planning, hospitality resource allocation, and optimizing commercial airline logic. 
