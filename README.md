@@ -1,4 +1,4 @@
-# Python-Based Statistical Modeling and Forecasting of Myanmar Tourism & Airline Arrivals
+# Python Based Statistical Modeling and Forecasting of Myanmar Tourism & Airline Arrivals
 
 ## Project Overview
 Predicting international tourist and airline arrivals is foundational for macroeconomic planning, hospitality resource allocation, and optimizing commercial airline logic. 
@@ -18,23 +18,23 @@ This project establishes a rigorous, production-ready statistical forecasting fr
 
 ### Determining the Significance of the Seasonality
 * **Objective:** Verify whether recurring seasonal spikes are statistically meaningful or merely random fluctuations.
-* **Empirical Result:** The **Autocorrelation Function (ACF)** plot exhibited distinct, repeating spikes exactly at **Lag 12** and **Lag 24**. This provides empirical proof of a powerful **12-month cyclical seasonality** in Myanmar airline arrivals, heavily corresponding to the traditional annual peak tourism window (November to February).<img width="541" height="112" alt="image" src="https://github.com/user-attachments/assets/1649c39d-63f4-4dff-9ac7-1fb0de19c865" />
+<img width="541" height="112" alt="image" src="https://github.com/user-attachments/assets/1649c39d-63f4-4dff-9ac7-1fb0de19c865" />
 
 
 ### Identifying Seasonal Differences to Model Seasonality and Trends
-* **Objective:** Mathematically evaluate the structural relationship between the baseline trend and seasonal variations (Additive vs. Multiplicative structural properties).
-* **Empirical Result:** Comprehensive variance analysis demonstrated that the amplitude of seasonal peaks expands proportionally with the long-term trend line. <img width="663" height="445" alt="image" src="https://github.com/user-attachments/assets/07c082ef-cbb3-4d7c-b09c-07e94c479429" />
+* **Objective:** Mathematically evaluate the structural relationship between the baseline trend and seasonal variations .
+<img width="663" height="445" alt="image" src="https://github.com/user-attachments/assets/07c082ef-cbb3-4d7c-b09c-07e94c479429" />
 
 
 
 ### Deseasonalizing the Model
 * **Objective:** Strip away cyclical seasonal noise to isolate and track the true underlying growth or contraction trend.
-* **Empirical Result:** Utilizing classical Multiplicative Decomposition, the data was successfully decoupled. The resulting **Deseasonalized Series (Trend-Cycle component)** smoothly uncovers the true structural trajectory of arrival volumes, unclouded by annual high-season tourist spikes.<img width="693" height="465" alt="image" src="https://github.com/user-attachments/assets/28587ed3-205a-400c-a79f-df3afc52d5bb" />
+<img width="693" height="465" alt="image" src="https://github.com/user-attachments/assets/28587ed3-205a-400c-a79f-df3afc52d5bb" />
 
 
 ### Applying the Least Squares Method (Model Estimation)
 * **Objective:** Execute the statistical estimation engine to compute optimized parameters and assess model fitness weights.
-* **Empirical Result:** The mathematical execution successfully converged across **84 historical monthly observations**.<img width="926" height="527" alt="image" src="https://github.com/user-attachments/assets/562d544d-1d2f-43b3-8815-4d69b0197f8d" />
+<img width="926" height="527" alt="image" src="https://github.com/user-attachments/assets/562d544d-1d2f-43b3-8815-4d69b0197f8d" />
 
 
 ###  Holt-Winters' Exponential Smoothing Model 
